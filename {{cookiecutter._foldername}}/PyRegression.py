@@ -1,6 +1,12 @@
 '''
 Hello, {{cookiecutter.Your_Name}}! Welcome to {{cookiecutter.Event}}.
-Let's get started with your challenge!
+Let's get started with your challenge. 
+
+IMPORTANT NOTE: When you run the script, it may take a while for 
+results to show depending on the network connection. Don't worry. 
+If the program fails on intial run, try again. Sometimes the remote 
+open data server can time out.
+
 '''
 
 '''
