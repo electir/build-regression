@@ -105,7 +105,7 @@ def get_features_and_labels(frame):
     # Use 50% of the data for training, but we will test against the
     # entire set
     
-    # '''ADD LINES FOR CREATING TRAINING AND TEST SET'''
+    # ****ADD LINES FOR CREATING TRAINING AND TEST SET****
     
     # Normalize the attribute values to mean=0 and variance=1
     from sklearn.preprocessing import StandardScaler
@@ -133,6 +133,7 @@ def evaluate_learner(X_train, X_test, y_train, y_test):
         (title, expected values, actual values)
     for each learner.
     '''
+    # ****ADD LEARNER CODE HERE****
    
     # Train using a radial basis function
     
