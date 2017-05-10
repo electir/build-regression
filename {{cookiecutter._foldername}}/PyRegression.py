@@ -39,18 +39,10 @@ absolute values.
 URL = "http://mldata.org/repository/data/download/csv/stockvalues/"
 
 # This is the column of the sample data to predict.
-# Try changing it to other integers between 1 and 155.
 TARGET_COLUMN = 32
 
-# Uncomment this call when using matplotlib to generate images
-# rather than displaying interactive UI.
-#import matplotlib
-#matplotlib.use('Agg')
+# ****ADD IMPORTS HERE****
 
-from pandas import read_table
-import numpy as np
-import matplotlib.pyplot as plt 
-from sklearn.svm import SVR
 
 try:
     # [OPTIONAL] Seaborn makes plots nicer
